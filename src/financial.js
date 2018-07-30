@@ -2,7 +2,11 @@ import React from 'react';
 
 const financial = (props) => {
     return(
-        <h1>Financial Test Page</h1>
+        <select name="financial Drop" id="">
+            <option value="Expenses">Expenses</option>
+            <option value="Savings">Savings</option>
+            <option value="spending">Spending</option>
+        </select>
     );
 }
 

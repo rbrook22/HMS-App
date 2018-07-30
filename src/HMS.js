@@ -3,7 +3,11 @@ import React from 'react';
 
 const hms = (props) => {
         return(
-            <h1>HMS Test Page</h1>
+            <select name="Dropdown Menu Items" id="">
+                <option value="Weekly Item">Weekly Item</option>
+                <option value="Monthly Item">Monthly Item</option>
+                <option value="Yearly Item">Yearly Item</option>
+            </select>
         );
     }
 
