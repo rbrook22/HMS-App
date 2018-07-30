@@ -1,17 +1,22 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-const NavBar = (props) => {
-    return (
-        <div>
-            <Link to="/"><h1>Home Management System</h1></Link>
 
-            <Link to="/home"><input type="button" value="HMS"/></Link>
-            <Link to="/about"><input type="button" value="MED"/></Link>
-            <Link to="/puppies"><input type="button" value="$$$"/></Link>
-        </div>
 
-    );
-}
+const hms = (props) => {
+        return(
+            <div className="hmsMain">
+                <div className="weekly">
+                    <h1>Weekly Items</h1>
+                </div>
 
-export default NavBar;
+                <div className="monthly">
+                    <h1>Monthly Items</h1>
+                </div>
+                <div className="yearly">
+                    <h1>Yearly Items</h1>
+                </div>
+            </div>
+        );
+    }
+
+export default hms;
