@@ -10,11 +10,10 @@ class App extends Component {
 
         <NavBar />
 
-
         <Route path="/" exact={true} component={Landing} />
-        <Route path="/home" component={HMS} />
-        <Route path="/about" component={MED} />
-        <Route path="/puppies" component={$$$} />
+        <Route path="/hms" component={HMS} />
+        <Route path="/med" component={MED} />
+        <Route path="/financial" component={$$$} />
 
       </div>
     );
