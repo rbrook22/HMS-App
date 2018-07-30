@@ -15,6 +15,7 @@ class App extends Component {
         <Route path="/home" component={HMS} />
         <Route path="/about" component={MED} />
         <Route path="/puppies" component={$$$} />
+
       </div>
     );
   }
