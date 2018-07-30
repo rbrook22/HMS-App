@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Route, Link} from 'react-router-dom';
-import NavBar from './HMS';
+import NavBar from './landing';
 
 class App extends Component {
   render() {
