@@ -1,13 +1,21 @@
 import React from 'react';
 
 
+
 const hms = (props) => {
         return(
-            <select name="Dropdown Menu Items" id="">
-                <option value="Weekly Item">Weekly Item</option>
-                <option value="Monthly Item">Monthly Item</option>
-                <option value="Yearly Item">Yearly Item</option>
-            </select>
+            <div className="hmsMain">
+                <div className="weekly">
+                    <h1>Weekly Items</h1>
+                </div>
+
+                <div className="monthly">
+                    <h1>Monthly Items</h1>
+                </div>
+                <div className="yearly">
+                    <h1>Yearly Items</h1>
+                </div>
+            </div>
         );
     }
 

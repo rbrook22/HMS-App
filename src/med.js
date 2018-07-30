@@ -2,11 +2,18 @@ import React from 'react';
 
 const med = (props) => {
     return(
-        <select name="" id="">
-            <option value="Appointments">Appointments</option>
-            <option value="Drop-Ins">Drop-In Visits</option>
-            <option value="Completed">Completed Appointments</option>
-        </select>
+        <div className="medMain">
+            <div className="appointments">
+                <h1>Appointments</h1>
+            </div>
+
+            <div className="dropIn">
+                <h1>Drop-In Appointments</h1>
+            </div>
+            <div className="completed">
+                <h1>Completed Visits</h1>
+            </div>
+        </div>
     );
 }
 
