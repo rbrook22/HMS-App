@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {Route, Link} from 'react-router-dom';
 import NavBar from './landing';
-import hms from './hms';
+import hms from './HMS';
 import med from './med';
 import financial from './financial';
 
