@@ -1,41 +1,69 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Route, Link} from 'react-router-dom';
-import NavBar from './landing';
-import hms from './HMS';
-import med from './med';
-import financial from './financial';
+import Task from './Task';
+import Data from './data.json'
 
 class App extends Component {
   render() {
+    let weeklyTasks = Data.HMS.Weekly;
+    let monthlyTasks = Data.HMS.Monthly;
+    let yearlyTasks = Data.HMS.Yearly;
     return ( 
       <div className = "App" >
-
-        <NavBar />
-
-        <Route path="/" exact={true} component={Landing} />
-        <Route path="/hms" component={hms} />
-        <Route path="/med" component={med} />
-        <Route path="/financial" component={financial} />
-
-
-        <div>
-          <hms />
-          <med />
-          <financial />
+        <h1>ALL IN ONE HMS APPLICATION</h1>
+        <div className = "Time">
+          <h2>Weekly</h2>
+          {
+            weeklyTasks.map(t =>{
+              return (
+                <Task 
+                  title={t.Title}
+                  dueDate={t.DueDate}
+                  description={t.Description}
+                />
+              )
+            })
+          }
+          <Task
+            title="test test test"
+            dueDate="12/18/2018"
+            description="Cut the front and back"
+           />
+        </div>
+        <br/>
+        <div className = "Time">
+          <h2>Monthly</h2>
+          {
+            monthlyTasks.map(t => {
+              return(
+                <Task 
+                  title={t.Title}
+                  dueDate={t.DueDate}
+                  description={t.Description}
+                />
+              )
+            })
+          }
+        </div>
+        <br/>
+        <div className = "Time">
+          <h2>Yearly</h2>
+          {
+            yearlyTasks.map(t => {
+              return(
+                <Task 
+                  title={t.Title}
+                  dueDate={t.DueDate}
+                  description={t.Description}
+                />
+              )
+            })
+          }
         </div>
       </div>
 
     );
   }
 }
-
-const Landing = (props) => {
-  return(
-    <h1>This is the landing page, freaking awesome!</h1>
-  );
-}
-
-
 
 export default App;
