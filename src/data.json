@@ -1,0 +1,41 @@
+{
+    "HMS": 
+    {
+        "Weekly": [
+            {
+                "Title": "Mow the lawn",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "Title": "Take out the Trash",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ],
+        "Monthly": [
+            {
+                "Title": "",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "Title": "",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ],
+        "Yearly": [
+            {
+                "Title": "Pressure Wash House",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "Title": "Spray for Termites",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ]
+    }
+}
