@@ -26,3 +26,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Tasks {
+  display: grid;
+  border: 2px solid red;
+}
+
+.Time {
+  border: 2px solid blue;
+}
