@@ -1,0 +1,53 @@
+{
+    "HMS": 
+    [
+        {
+            "id": 1,
+            "Weekly": [
+            {
+                "WeekId": 1,
+                "Title": "Mow the lawn",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "WeekId": 2,
+                "Title": "Take out the Trash",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ]},
+        {
+            "id": 2,
+            "Monthly": [
+            {
+                "MonthId": 1,
+                "Title": "",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "MonthId": 2,
+                "Title": "",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ]},
+        {
+            "id": 3,
+            "Yearly": [
+            {
+                "YearId": 1,
+                "Title": "Pressure Wash House",
+                "Due Date": "12/18/2018",
+                "Description": "Cut the front and back yard"
+            },
+            {
+                "YearId": 2,
+                "Title": "Spray for Termites",
+                "Due Date": "8/1/2018",
+                "Description": "Take trash to curb"
+            }
+        ]}
+    ]
+}
