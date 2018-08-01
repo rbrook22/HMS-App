@@ -27,16 +27,18 @@ After reviewing the requirements of the project and coming up with an idea, the 
 ## Site Walkthrough
 ### Weekly Items
 
-<img src="public/weekly.png">
+<img src="imgs/weekly.png">
 
 ### Monthly Items
 
-<img src="public/monthly.png">
+<img src="imgs/monthly.png">
 
 ### Yearly Items
 
-<img src="public/yearly.png">
+<img src="imgs/yearly.png">
 
+## Code Snippets
+### App.Js
 
 
 
