@@ -1,37 +1,36 @@
-.App {
+/* body {
+  background-color: rgb(242, 242, 242);
+}
+.navBar {
   text-align: center;
+  background-color: rgb(64, 124, 142);
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.navImg {
+  background-image: url('house.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+input {
+  margin: 10px;
+  height: 200px;
+  width: 100px;
 }
 
 .Tasks {
-  display: grid;
-  border: 2px solid red;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 20px 0 #fff;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
 }
-
+.taskContainer {
+  align-items: center;
+}
 .Time {
-  border: 2px solid blue;
-}
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgb(64, 124, 142);
+  margin: 25px;
+  padding: 10px;
+  background-color: rgb(64, 124, 142);
+} */
