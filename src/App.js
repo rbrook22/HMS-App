@@ -13,7 +13,7 @@ class App extends Component {
       <div className = "App" >
         <div className="navBar">
           <div className="navImg"></div>
-          <h1>ALL IN ONE HMS APPLICATION</h1>
+          <span><h1>ALL IN ONE HMS APPLICATION</h1></span>
           <Nav />
         </div>
         <br/>
