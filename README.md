@@ -1,7 +1,7 @@
 # HMS-App
 
 
-## <a href="http://www.traceandfind.co/"> Live Demo <a>
+## <a href="http://hmsapp.surge.sh/"> Live Demo <a>
 
 ## Team Members
 * <a href="https://github.com/rbrook22"> Rick Brooks </a>
