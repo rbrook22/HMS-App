@@ -40,14 +40,21 @@ After reviewing the requirements of the project and coming up with an idea, the 
 ## Code Snippets
 ### App.Js
 
+<img src="imgs/app.png">
 
+### Task.Js
+
+<img src="imgs/task.png">
+
+### Nav.Js
+
+<img src="imgs/nav.png">
 
 ## Challenges
 <p>
 In the beginning one challenge we faced was navigating the react components themselves and best ways to create & structure the code in order to render the data from our JSON file. Upon figuring out the structure and how to build out the components the next challenge we faced 
 
-<a href="https://codepen.io/rbrook22/pen/PBRmpx"> <img src="public/codepen.jpg"> </a>
-
+<a href="https://codepen.io/rbrook22/pen/PBRmpx"> <img src="imgs/codepen.png"> </a>
 
 
 
