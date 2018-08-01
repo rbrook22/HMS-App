@@ -32,10 +32,10 @@ body {
   background-color: rgb(64, 124, 142);
 }
 .navImg {
-  background-image: url('house.jpg');
+  background-image: url('http://2-dance.com/wp-content/uploads/2015/06/banner-house.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 300px;
 }
 span {
   display: flex;
