@@ -32,10 +32,10 @@ body {
   background-color: rgb(64, 124, 142);
 }
 .navImg {
-  background-image: url('http://2-dance.com/wp-content/uploads/2015/06/banner-house.jpg');
+  background-image: url('https://storage.googleapis.com/idx-acnt-gs.ihouseprd.com/AR737237/file_manager/Treda-banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 200px;
 }
 span {
   display: flex;
