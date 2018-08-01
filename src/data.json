@@ -15,26 +15,26 @@
         ],
         "Monthly": [
             {
-                "Title": "",
-                "DueDate": "12/18/2018",
-                "Description": "Cut the front and back yard"
+                "Title": "Monthly 1",
+                "DueDate": "08/18/2018",
+                "Description": "Monthly Item 1"
             },
             {
-                "Title": "",
-                "DueDate": "8/1/2018",
-                "Description": "Take trash to curb"
+                "Title": "Monthly 2",
+                "DueDate": "08/1/2018",
+                "Description": "Monthly Item 2"
             }
         ],
         "Yearly": [
             {
                 "Title": "Pressure Wash House",
                 "DueDate": "12/18/2018",
-                "Description": "Cut the front and back yard"
+                "Description": "Rent pressure washer and clean outside house"
             },
             {
                 "Title": "Spray for Termites",
-                "DueDate": "8/1/2018",
-                "Description": "Take trash to curb"
+                "DueDate": "11/1/2018",
+                "Description": "Call termix and have them come out to spray"
             }
         ]
     }

@@ -11,10 +11,15 @@ class App extends Component {
   render() {
     return ( 
       <div className = "App" >
-        <h1>ALL IN ONE HMS APPLICATION</h1>
-        <Nav />
+        <div className="navBar">
+          <div className="navImg"></div>
+          <h1>ALL IN ONE HMS APPLICATION</h1>
+          <Nav />
+        </div>
         <br/>
 
+
+        
         <Route path="/weekly" component={WeeklyTask} />
         <Route path="/monthly" component={MonthlyTask} />
         <Route path="/yearly" component={YearlyTask} />

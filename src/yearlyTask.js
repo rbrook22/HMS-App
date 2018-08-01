@@ -8,17 +8,19 @@ class YearlyTask extends React.Component {
         return(
             <div className = "Time">
             <h2>Yearly</h2>
-            {
-                yearlyTasks.map(t => {
-                return(
-                    <Task 
-                    title={t.Title}
-                    dueDate={t.DueDate}
-                    description={t.Description}
-                    />
-                    )
-                })
-            }
+            <div className="timeContent">
+                {
+                    yearlyTasks.map(t => {
+                    return(
+                        <Task 
+                        title={t.Title}
+                        dueDate={t.DueDate}
+                        description={t.Description}
+                        />
+                        )
+                    })
+                }
+            </div>
             </div>
         );
     }

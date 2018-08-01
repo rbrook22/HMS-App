@@ -3,3 +3,52 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+body {
+  background-color: rgb(242, 242, 242);
+}
+.navBar {
+  text-align: center;
+  background-color: rgb(64, 124, 142);
+}
+.navImg {
+  background-image: url('house.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+input {
+  margin: 10px;
+  height: 200px;
+  width: 100px;
+}
+.Tasks {
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+  box-shadow: 0 0 20px 0 #fff;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+}
+.taskContainer {
+  align-items: center;
+}
+.Time {
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgb(64, 124, 142);
+  margin: 25px;
+  padding: 10px;
+  background-color: rgb(64, 124, 142);
+}
+.timeContent {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 600px){
+
+}
