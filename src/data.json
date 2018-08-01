@@ -11,19 +11,60 @@
                 "Title": "Take out the Trash",
                 "DueDate": "8/1/2018",
                 "Description": "Take trash to curb"
+            },
+            {
+                "Title": "Vacum House",
+                "DueDate": "8/4/2018",
+                "Description": "Vacum living room & bedrooms"
+            },
+            {
+                "Title": "Do Laundry",
+                "DueDate": "8/5/2018",
+                "Description": "Separate whites and colors and wash."
+            },
+            {
+                "Title": "Clean Bathroom",
+                "DueDate": "8/4/2018",
+                "Description": "Clean toilet, shower, & sink"
+            },
+            {
+                "Title": "Mop Kitchen",
+                "DueDate": "8/3/2018",
+                "Description": "Mop Kitchen floor with 1/3 bleach solution"
             }
         ],
         "Monthly": [
             {
-                "Title": "Monthly 1",
-                "DueDate": "08/18/2018",
+                "Title": "Clean Out Closet",
+                "DueDate": "08/30/2018",
                 "Description": "Monthly Item 1"
             },
             {
-                "Title": "Monthly 2",
-                "DueDate": "08/1/2018",
-                "Description": "Monthly Item 2"
+                "Title": "Clean Fridge",
+                "DueDate": "08/20/2018",
+                "Description": "Take all items out and wipe fridge clean"
+            },
+            {
+                "Title": "Clean Windows",
+                "DueDate": "08/20/2018",
+                "Description": "Grab windex and wipe"
+            },
+            {
+                "Title": "Dust",
+                "DueDate": "08/25/2018",
+                "Description": "Dust baseboards, blinds, & light fixtures"
+            },
+            {
+                "Title": "Clean out trashcans",
+                "DueDate": "08/28/2018",
+                "Description": "Wash and clean out inside of trashcan"
+            },
+            {
+                "Title": "Change out lightbulbs",
+                "DueDate": "08/20/2018",
+                "Description": "figure out wattage and type of bulb to replace"
             }
+
         ],
         "Yearly": [
             {
@@ -35,6 +76,26 @@
                 "Title": "Spray for Termites",
                 "DueDate": "11/1/2018",
                 "Description": "Call termix and have them come out to spray"
+            },
+            {
+                "Title": "Repaint Interior walls",
+                "DueDate": "11/1/2018",
+                "Description": "Grab bucket of gray paint and paint living room"
+            },
+            {
+                "Title": "Refinish Basement",
+                "DueDate": "10/1/2018",
+                "Description": "Hire Contractor and begin work on basement"
+            },
+            {
+                "Title": "Clean out gutters",
+                "DueDate": "11/25/2018",
+                "Description": "Take ladder and clean out gutters or hire person to do it."
+            },
+            {
+                "Title": "Seed the Lawn",
+                "DueDate": "04/1/2019",
+                "Description": "Hire Lawn service to come out and seed the lawn"
             }
         ]
     }
